@@ -39,11 +39,10 @@ public class LoginPageTest {
 			basepage=new BasePage();
 			prop=basepage.init_properties();
 			
-			if(browser.equals(null) || browser.equals("") || browser.isEmpty()) {
-				browsername=prop.getProperty("browser");
-			}
-			else {
-				browsername=browser;
+			if(browser.equals(null) || browser.equals("") || browser.isEmpty()){
+				 browsername = prop.getProperty("browser");
+			}else{
+				browsername = browser;
 			}
 			
 			driver=basepage.init_driver(browsername);

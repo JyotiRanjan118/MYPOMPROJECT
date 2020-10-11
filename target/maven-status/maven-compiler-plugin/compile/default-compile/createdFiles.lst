@@ -1,0 +1,14 @@
+com\qa\hubspot\page\HomePage.class
+com\qa\hubspot\util\ExcelUtil.class
+com\qa\hubspot\listener\ExtentReportListener.class
+com\qa\hubspot\util\AppConstants.class
+com\qa\hubspot\util\JavaScriptUtilGit.class
+com\qa\hubspot\page\ContactsPage.class
+com\qa\hubspot\listener\pdfListener.class
+com\qa\hubspot\page\LoginPage.class
+com\qa\hubspot\listener\TesultsListener.class
+com\qa\hubspot\util\ElementUtil.class
+com\qa\hubspot\util\Credentials.class
+com\qa\hubspot\base\OptionsManager.class
+com\qa\hubspot\listener\TestAllureListener.class
+com\qa\hubspot\base\BasePage.class
